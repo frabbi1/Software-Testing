@@ -1,0 +1,51 @@
+Input:
+
+1st line: Number of variables (n)
+Next n lines: Range of each variable
+
+Output:
+
+Test cases using BVC
+Test cases using robust testing
+Test cases using worst case testing
+
+(Read from book: Software Testing: Principles and Practices by Chauhan, Naresh-> Chapter 4: [4.1])
+
+
+--------------------------------------
+
+Sample:
+input:
+2
+1 10
+1 5
+
+output:
+BVC:
+TestID	A	B
+	1	1	3
+	2	2	3
+	3	10	3
+	.........
+	.........
+
+Robust:
+TestID	A	B
+	1	0	3
+	2	1	3
+	3	2	3
+	.........
+	.........
+
+Worst Case:
+TestID	A	B
+	1	1	1
+	2	1	2
+	3	1	3
+	.........
+	.........
+
+NB: eita just sample. aro valo kore output dekhaite parish.. But bujha jeno jay. Boi a 'expected output' arekta column ase... oita lagbe na!
+
+Good Luck :) 
+Amar Barite Eid er dawat thaklo :p 
